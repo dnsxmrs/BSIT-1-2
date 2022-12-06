@@ -12,7 +12,7 @@ int main () {
 
     printf("%.2f hour/s is %d minute/s\n", inp1, mns);
 
-	printf("\nEnter number of minutes: ");
+    printf("\nEnter number of minutes: ");
     scanf("%d", &inp2);
 
     hrs = inp2 / 60;
