@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main () {
+    int num;
+    char abc[50];
+    float nom;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    printf("Enter a word: ");
+    scanf("%s", &abc);
+    printf("Enter a two decimal number: ");
+    scanf("%f", &nom);
+    
+    printf("\nYou entered %d in number.\n", num);
+    printf("You entered %s in word.\n", abc);
+    printf("You entered %.2f in two decimal number.", nom);
+
+    return 0;
+}
